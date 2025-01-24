@@ -4,7 +4,7 @@ title.innerHTML = 'Secret number Game';
 let paragraph = document.querySelector('p');
 paragraph.innerHTML = 'Choose a number between 1 and 10';*/
 let listRandomNumber = [];
-let numberMax = 100;
+let numberMax = 50;
 let secretNumber = generateRandomNumber();
 let attempts = 1;
 
@@ -16,7 +16,7 @@ function showTextOnScreen(tag,texto){
 
 function showStartMessage() {
     showTextOnScreen('h1','Secret number Game');
-    showTextOnScreen('p','Choose a number between 1 and 100');
+    showTextOnScreen('p','Choose a number between 1 and 50');
 }
 
 showStartMessage();
